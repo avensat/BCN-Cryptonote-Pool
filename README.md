@@ -129,13 +129,13 @@ npm update
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "dashcoin",
+"coin": "bytecoin",
 
 /* Used for front-end display */
-"symbol": "DSH",
+"symbol": "BCN",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinUnits": 1000000000000,
+"coinUnits": 100000000,
 
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinDifficultyTarget": 120,
@@ -174,7 +174,7 @@ Explanation for each field:
     "clusterForks": "auto",
 
     /* Address where block rewards go, and miner payments come from. */
-    "poolAddress": "D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4NWHJ6Ravv93v4BaE"
+    "poolAddress": "23uavzErzEt1iNvi1txqkMQmEP6VHnUcYNZtKiQ2ErJk9BW915VnJvZfNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJGg3dML"
 
     /* Poll RPC daemons for new blocks every this many milliseconds. */
     "blockRefreshInterval": 1000,
@@ -213,7 +213,7 @@ Explanation for each field:
     },
 
     /* Set difficulty on miner client side by passing <address> param with .<difficulty> postfix
-       minerd -u D3z2DDWygoZU4NniCNa4oMjjKi45dC2KHUWUyD1RZ1pfgnRgcHdfLVQgh5gmRv4jwEjCX5LoLERAf5PbjLS43Rkd8vFUM1m.5000 */
+       minerd -u 23uavzErzEt1iNvi1txqkMQmEP6VHnUcYNZtKiQ2ErJk9BW915VnJvZfNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJGg3dML.5000 */
     "fixedDiff": {
         "enabled": true,
         "separator": ".", // character separator between <address> and <difficulty>
