@@ -82,7 +82,8 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 
 * http://democats.org
 * http://cryptonotepool.com/
-
+* http://pools.tugae2.com/bcn
+* http://pool.bytecoin.party/
 Usage
 ===
 
